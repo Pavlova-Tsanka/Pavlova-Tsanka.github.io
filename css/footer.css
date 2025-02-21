@@ -1,0 +1,72 @@
+footer {
+    background-color: #8da366;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: auto;
+    flex-shrink: 0;
+}
+
+div.footer-content {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* Redes */
+
+footer div span {
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    margin-left: 0px;
+}
+
+div.social {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+}
+
+div.social-iconos {
+    display: flex;
+}
+
+span.fa-facebook {
+    background-image: url(../imagenes/iconos/facebook-2.png);
+}
+
+span.fa-facebook:hover {
+    background-image: url(../imagenes/iconos/facebook.png);
+}
+
+span.fa-instagram {
+    background-image: url(../imagenes/iconos/instagram-2.png);
+}
+
+span.fa-instagram:hover {
+    background-image: url(../imagenes/iconos/instagram.png);
+}
+
+span.fa-linkedin {
+    background-image: url(../imagenes/iconos/linkedin-2.png);
+}
+
+span.fa-linkedin:hover {
+    background-image: url(../imagenes/iconos/linkedin.png);
+}
+
+/* Copyright */
+
+div.copyright {
+    display: flex;
+}
+
+p.copyright {
+    text-align: end;
+    margin-left: auto;
+}
