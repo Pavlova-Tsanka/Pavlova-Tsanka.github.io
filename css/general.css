@@ -135,6 +135,13 @@ div.marketing p {
     border-radius: 20px;
 }
 
+/* Gráficas */
+
+img.grafica {
+    width: 45%;
+    height: 400px;
+}
+
 /* Mapa */
 
 img.mapa {
