@@ -31,7 +31,7 @@ section.frase {
     padding: 25px;
 }
 
-section.frase p {
+section.frase h4 {
     margin-top: auto;
     margin-bottom: auto;
     padding: 50px;
@@ -119,13 +119,14 @@ div button {
 
 /* Marketing */
 
-section.marketing {
+div.marketing {
+    padding: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-section.marketing p {
+div.marketing p {
     margin-left: 20px;
     margin-right: 20px;
     padding: 20px;
