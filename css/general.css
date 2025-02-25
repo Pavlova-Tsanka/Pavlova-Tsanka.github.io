@@ -103,6 +103,7 @@ div.cell:hover .img_description {
 
 div label {
     padding: 5px;
+    display: table-cell;
 }
 
 div input {
