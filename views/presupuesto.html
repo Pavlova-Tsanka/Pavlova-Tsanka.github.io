@@ -46,19 +46,26 @@
         <form>
             <div>
                 <label>Nombre*:</label>
-                <input type="text" name="Nombre" placeholder="Sergio" required>
+                <input type="text" name="Nombre" placeholder="Sergio" required minlength="5" pattern="([A-zÀ-ÿ]+)(?:\s[A-zÀ-ÿ]+){0,4}$">
             </div>
             <div>
                 <label>Email*:</label>
-                <input type="email" placeholder="email@me.com" required>
+                <input type="email" placeholder="email@me.com" required pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$">
             </div>
             <div>
+                <!-- 
+                    Expresion regunlar que permite numeros españoles con los siguientes formatos
+                    +34 645 761 714
+                    +34645761714
+                    645 761 714
+                    645761714
+                 -->
                 <label>Teléfono*:</label>
-                <input type="tel" placeholder="+34 645 761 714" required>
+                <input type="tel" placeholder="+34 645 761 714" required pattern="^(\+34?\s?)?\d{3}(?:\s?\d{3}){2}$">
             </div>
             <div>
                 <label>Describa su caso:</label>
-                <textarea rows="10" cols="50"></textarea>
+                <textarea rows="10" cols="50" required></textarea>
             </div>
             <div>
                 <input type="checkbox" required>
