@@ -46,6 +46,11 @@ nav a.logo {
     float: left;
 }
 
+nav img {
+    width: 200px;
+    height: 100px;
+}
+
 /* Letras logo */
 
 p.logo-title {
